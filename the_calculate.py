@@ -65,7 +65,6 @@ def insertclean(labl):
     javab.update()
     
     
-
 #one to nine
 btn1=Button(window,text='1',font='tahoma 15',padx=10 , pady=10 , bd='4',command=lambda:insertnumber(1))
 btn2=Button(window,text='2',font='tahoma 15',padx=10 , pady=10 , bd='4',command=lambda:insertnumber(2))
@@ -120,6 +119,5 @@ btnmulti.grid(row=4,column=5)
 btndiv.grid(row=5,column=5)
 
 javab.grid(row=0,column=0,columnspan=6)
-
 
 mainloop()
